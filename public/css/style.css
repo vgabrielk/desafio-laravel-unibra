@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    background-position: center;
+    background-image: url(../assets/images/background-unibra.png);
+  }
+  input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+  
+  .form {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    height: auto;
+    width: 300px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 12px;
+    padding: 2rem;
+  }
+  .form::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+    height: 8px;
+    width: 85%;
+    background-color: black;
+    border-radius: 12px;
+  }
+  .form .logo {
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .form .logo img {
+    width: 180px;
+  }
+  
+  .form .header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form .header h2 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .form .header p {
+    font-size: 0.6rem;
+    font-weight: 100;
+    color: #4e4e4e;
+  }
+  
+  .form .form-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+  .form .form-content label {
+    font-weight: bold;
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
+    margin-left: 4px;
+    text-transform: uppercase;
+  }
+  
+  .form .form-content .input {
+    border: 1px solid #afafaf;
+    box-shadow: 1px 1px 12px #b6b6b6;
+    height: 35px;
+    border-radius: 6px;
+    user-select: none;
+    box-sizing: initial;
+    padding: 0 10px;
+  }
+  .form .form-content .button-submit {
+    background-color: #222;
+    border: none;
+    height: 40px;
+    border-radius: 6px;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .form .form-content .button-secondary {
+    border: none;
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 6px;
+    color: #222;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .form .form-content a {
+    margin-top: 20px;
+    text-align: center;
+    color: #222;
+    text-decoration: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: .8rem;
+    margin-top: 6px;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+  }

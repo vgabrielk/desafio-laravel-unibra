@@ -1,0 +1,95 @@
+/* Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    background-position: center;
+    background-image: url(../assets//images/background-unibra.png);
+  }
+  .message-logged h3{
+    text-align: center;
+    margin: 20px 0;
+  }
+  .form {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    height: auto;
+    width: 300px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 12px;
+    padding: 2rem;
+  }
+  .form::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+    height: 8px;
+    width: 85%;
+    background-color: rgb(30, 255, 0);
+    border-radius: 12px;
+  }
+  .form .logo {
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .form .logo img {
+    width: 180px;
+  }
+  
+  .form .header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form .header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.form .header p {
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 100;
+    color: #4e4e4e;
+  }
+  
+  .form .form-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form .form-content .button-submit {
+    background-color: #222;
+    border: none;
+    height: 40px;
+    border-radius: 6px;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .form .form-content .button-secondary {
+    display: grid;
+    place-content: center;
+    border: none;
+    height: 20px;
+    border-radius: 6px;
+    color: #222;
+    cursor: pointer;
+  }
+  
+ 
+  
