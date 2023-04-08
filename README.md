@@ -24,7 +24,7 @@ https>
     cd desafio-laravel-unibra
 ```
 
-1 - No diretório raiz do projeto, crie um arquivo .env e cole todo o conteúdo do arquivo .env.example no arquivo .env, em seguida gere uma chave SSH com o comando:
+1 - No diretório raiz do projeto, crie um arquivo .env e cole todo o conteúdo do arquivo .env.example no arquivo .env, em seguida gere uma chave com o comando:
 ```bash
     php artisan key:generate
 ```
