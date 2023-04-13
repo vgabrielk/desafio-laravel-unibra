@@ -24,11 +24,7 @@ https>
     cd desafio-laravel-unibra
 ```
 
-1 - No diretório raiz do projeto, crie um arquivo .env e cole todo o conteúdo do arquivo .env.example no arquivo .env, em seguida gere uma chave com o comando:
-```bash
-    php artisan key:generate
-```
-2 - Agora rode o seguinte comando : 
+1 - Agora rode o seguinte comando : 
 ```bash
 Windows :
     composer install --ignore-platform-reqs && del composer.lock && composer install
@@ -36,6 +32,12 @@ Windows :
 ```bash
 Linux :
     composer install --ignore-platform-reqs && sudo rm composer.lock && composer install
+```
+
+
+2 - No diretório raiz do projeto, crie um arquivo .env e cole todo o conteúdo do arquivo .env.example no arquivo .env, em seguida gere uma chave com o comando:
+```bash
+    php artisan key:generate
 ```
 
 ## Configurar banco de dados
